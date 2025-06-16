@@ -13,17 +13,6 @@ This project is a machine learning–powered medical prediction system that allo
 - 🌲 **Decision Tree Strategy** and abstract base to plug in future ML models.
 - 🧩 **Modular Design** using the Strategy pattern for flexibility and extensibility.
 
-## 📁 Project Structure
-
-medical_predictor/
-│
-├── main.py # App entry point
-├── app.py # UI logic for user input and prediction flow
-├── data_loader.py # Prepares and cleans input data
-├── decision_tree_strategy.py# Implements prediction using Decision Tree
-├── predictor_strategy.py # Base strategy class for extensible ML logic
-└── init.py # Marks directory as a Python package
-
 
 ## 🚀 Getting Started (Local Run)
 
@@ -32,15 +21,14 @@ medical_predictor/
    git clone https://github.com/Parmod39/medical_predictor.git
    cd medical_predictor
 
-2.Install requirements (create requirements.txt if not already):
+2. **Install requirements (create requirements.txt if not already)**:
   ```bash
   pip install pywebio scikit-learn pandas
 
-3.Run the app:
+3. **Run the app**:
   ```bash
   python main.py
 
-##📬 Author
+## 📬 Author
 Parmod Budhiraja
 GitHub: Parmod39
-Live App: https://parmod02.pythonanywhere.com/
