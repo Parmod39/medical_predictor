@@ -22,12 +22,12 @@ This project is a machine learning–powered medical prediction system that allo
    cd medical_predictor
 
 2. **Install requirements (create requirements.txt if not already)**:
-  ```bash
-  pip install pywebio scikit-learn pandas
+   ```bash
+   pip install pywebio scikit-learn pandas
 
 3. **Run the app**:
-  ```bash
-  python main.py
+   ```bash
+   python main.py
 
 ## 📬 Author
 Parmod Budhiraja
